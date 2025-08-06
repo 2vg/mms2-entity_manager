@@ -33,7 +33,7 @@
 #include <igamesystemfactory.h>
 #include <iserver.h>
 #include <entity2/entitysystem.h>
-#include <gamesystems/spawngroup_manager.h>
+#include <spawngroupmgr.h>
 #include <worldrenderer/iworld.h>
 #include <worldrenderer/iworldrenderermgr.h>
 #include <tier0/dbg.h>
