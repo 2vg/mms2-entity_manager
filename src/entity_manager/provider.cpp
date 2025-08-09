@@ -94,7 +94,7 @@ CUtlSymbolLarge EntityManager::Provider::GetSymbol(const char *pszText)
 
 CUtlSymbolLarge EntityManager::Provider::FindSymbol(const char *pszText) const
 {
-	return m_aSymbolTable.Find(pszText);
+	return m_aSymbolTable.FindString(pszText);
 }
 
 bool EntityManager::Provider::LoadGameData(const char *pszBaseDir, GameData::CStringVector &vecMessages)
